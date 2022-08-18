@@ -37,5 +37,6 @@ export const query = graphql`
     }
   }
 `
+export const Head = () => <title>My Blog Posts</title>
 
 export default BlogPage

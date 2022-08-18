@@ -28,7 +28,6 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
         Sorry 😔, we couldn’t find what you were looking for.
@@ -46,5 +45,7 @@ const NotFoundPage = () => {
     </main>
   )
 }
+
+export const Head = () => <title>Not found</title>
 
 export default NotFoundPage
