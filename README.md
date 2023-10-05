@@ -6,3 +6,4 @@ Start developing:
 
 1. `npm install`
 1. `npm run develop`
+2. Good boy
